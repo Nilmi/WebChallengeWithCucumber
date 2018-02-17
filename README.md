@@ -20,3 +20,4 @@ Technologies used:
  - Maven 
  - GIT
 
+![Web Challenge with Cucumber test run](https://user-images.githubusercontent.com/25843579/36344074-e6f8b2f8-143a-11e8-8368-0d44545127a0.png)
