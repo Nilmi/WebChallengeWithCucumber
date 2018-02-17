@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="41.127101">
+<testcase classname="Login and view main article" name="Navigate to login page" time="41.127101">
+<system-out><![CDATA[Given user already navigated to straitstimes url............................passed
+When title of the page is The Straits Times - Breaking News, Lifestyle & Multimedia News.passed
+Then user click on login link...............................................passed
+Then directs user to login page.............................................passed
+Then user enter "wijerathna.nilmi@gmail.com" and "Test1234" click on sign-in button.passed
+Then user login successfully................................................passed
+Then verify whether main article has a picture/video........................passed
+Then click on main article..................................................passed
+Then verify that user navigated to main article.............................passed
+Then verify picture/video present in main article...........................passed
+]]></system-out>
+</testcase>
+</testsuite>

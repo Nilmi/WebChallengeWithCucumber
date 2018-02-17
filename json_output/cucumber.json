@@ -1,0 +1,178 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1371024516,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MainArticleTest.initialize_browser_navigate_to_url()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Navigate to login page",
+        "description": "",
+        "id": "login-and-view-main-article;navigate-to-login-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 112697597,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MainArticleTest.after_test_activities()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16349319708,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user already navigated to straitstimes url",
+            "match": {
+              "location": "MainArticleTest.user_already_navigated_to_straitstimes_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 48225007,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "title of the page is The Straits Times - Breaking News, Lifestyle \u0026 Multimedia News",
+            "match": {
+              "location": "MainArticleTest.verify_title_of_straitstimes_main_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6118828366,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on login link",
+            "match": {
+              "location": "MainArticleTest.user_click_on_login_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5270316,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "directs user to login page",
+            "match": {
+              "location": "MainArticleTest.directs_user_to_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5952253098,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter \"wijerathna.nilmi@gmail.com\" and \"Test1234\" click on sign-in button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "wijerathna.nilmi@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "Test1234",
+                  "offset": 45
+                }
+              ],
+              "location": "MainArticleTest.user_enter_username_and_password_click_on_sign_in_button(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6383312715,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user login successfully",
+            "match": {
+              "location": "MainArticleTest.user_login_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1041905944,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "verify whether main article has a picture/video",
+            "match": {
+              "location": "MainArticleTest.verify_whether_main_article_has_a_picture_video()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3660642120,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click on main article",
+            "match": {
+              "location": "MainArticleTest.click_on_main_article()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 54012990,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "verify that user navigated to main article",
+            "match": {
+              "location": "MainArticleTest.verify_that_user_navigated_to_main_article()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 29609043,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "verify picture/video present in main article",
+            "match": {
+              "location": "MainArticleTest.verify_picture_video_present_in_main_article()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login and view main article",
+    "description": "",
+    "id": "login-and-view-main-article",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/straitstimes/webtest/features/Web.feature"
+  }
+]
